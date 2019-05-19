@@ -1,15 +1,21 @@
 # learn-deno-ws
 
-# Getting Started
+## Getting Started
 
-## Server
+### Server
 
 ```bash
 deno run -A server.ts
 ```
 
-## Client
+### Client
 
 ```bash
 deno run -A client.ts
+```
+
+## Lint
+
+```
+deno run --allow-read --allow-write https://deno.land/std/prettier/main.ts *.ts
 ```
